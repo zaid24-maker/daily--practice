@@ -1,0 +1,35 @@
+console.log("Day 2: Conditions and Loops");
+
+let age = 20;
+
+if (age >= 18) {
+  console.log("You are eligible to vote");
+} else {
+  console.log("You are not eligible to vote");
+}
+
+let number = 7;
+
+if (number % 2 === 0) {
+  console.log(number + " is Even");
+} else {
+  console.log(number + " is Odd");
+}
+
+for (let i = 1; i <= 5; i++) {
+  console.log("Count:", i);
+}
+
+let count = 1;
+while (count <= 3) {
+  console.log("While loop count:", count);
+  count++;
+}
+
+let fruits = ["Apple", "Banana", "Mango"];
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log("Fruit:", fruits[i]);
+}
+
+console.log("Day 2 practice completed ✅");
